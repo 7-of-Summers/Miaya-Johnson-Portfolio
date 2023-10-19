@@ -1,0 +1,101 @@
+p {
+   
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+	  font-size: 18px;
+    color: white;
+    width:800px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+h1 {
+    text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 44px;
+  color: white;
+  text-align: center;
+}
+
+
+h2 {
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 22px;
+color: white;
+float: center;
+
+}
+
+a {
+  display: inline-block;
+  background-color: lch(30% 170 200 / 1);
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 4px 10px;
+	margin: 0px;
+	border-radius: 10px;
+
+}
+
+
+li {
+  list-style-type: none;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+}
+
+
+	li a {
+  display: inline-block;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+
+
+.table {
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+}
+
+
+ul#horizontal-list {
+	min-width: 696px;
+	list-style: none;
+	padding-top: 20px;
+  display: inline-block;
+	}
+
+
+  ul#horizontal-list li {
+		display: inline-block;
+	}
+
+footer {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  color: white;
+  display: inline-block;
+  padding: 15px;
+ } 
+  
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: lch(70% 140 80 / 1);
+}
+
+
+	#wrapper {
+    margin-left:auto;
+    margin-right:auto;
+    width:1480px;
+}
