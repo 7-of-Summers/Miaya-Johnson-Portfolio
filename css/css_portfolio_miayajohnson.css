@@ -102,15 +102,30 @@ a:link {
   color: white;
 }
 
+a:visited {
+  color: white;
+}
+
 
 /* mouse over link */
 a:hover {
-  color: rgb(255, 255, 255);
+  color: rgb(52, 255, 228);
 }
 
 /* selected link */
 a:active {
   color: rgb(255, 255, 255);
+}
+
+.img-wrapper {
+  width: 300px;
+  display: inline-block;
+
+}
+
+.img-wrapper img {
+  width: 100%;
+  height: auto; 
 }
 
 
