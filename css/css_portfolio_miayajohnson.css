@@ -55,6 +55,15 @@ li {
 }
 
 
+.zoom {
+
+  transition: transform .2s; /* Animation */
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.2); /* (120% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
 
 .maxWidth {
 max-width: 700px;
@@ -85,7 +94,7 @@ footer {
  } 
   
 
-/* Change the link color to #111 (black) on hover */
+/* Change the link color to light green on hover */
 li a:hover {
   background-color: lch(71% 131 186);
 }
@@ -215,4 +224,7 @@ text-align: center;
 text-align: center;
 
 }
+
+
+  
 
