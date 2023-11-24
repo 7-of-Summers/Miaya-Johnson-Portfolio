@@ -226,5 +226,26 @@ text-align: center;
 }
 
 
+.mySlides {display:none;}
+
+.button {
+  display: inline;
+  background-color: lch(28% 50 182);
+  text-align: center;
+  align-items: center;
+  font-size: 33px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 7px 22px;
+	margin: 22px;
+	border-radius: 7px;
+  color: white;
+
+}
+
+
+  
+
+
+
   
 
