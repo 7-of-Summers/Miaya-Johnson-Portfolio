@@ -161,6 +161,28 @@ Small devices (480px and larger)
  p {
   text-align: unset;
 }
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 20px;
+}
+
+.navtoggle.responsive nav {
+  padding: 24px 0 0;
+}
+.navtoggle.responsive li  {
+  display: block;
+  padding: 10px 0;
+  border-top: 1px solid rgba(255,127,80,0.5);
+}
+
+.navtoggle.responsive li:last-child  {
+  padding: 0 0 10px;
+}
+.navtoggle li:not(:last-child) {
+  display: none;
+}
 
 
 }
@@ -179,6 +201,31 @@ Medium devices (640px and larger)
 	.col-md-4 {
 		width: calc(100%/3);
 	}
+
+  .navtoggle li .icon {
+    position: absolute;
+    right: 0;
+    top: 2px;
+    font-size: 20px;
+  }
+  
+  .navtoggle.responsive nav {
+    padding: 24px 0 0;
+  }
+  .navtoggle.responsive li  {
+    display: block;
+    padding: 10px 0;
+    border-top: 1px solid rgba(255,127,80,0.5);
+  }
+  
+  .navtoggle.responsive li:last-child  {
+    padding: 0 0 10px;
+  }
+
+  .navtoggle li:not(:last-child) {
+    display: none;
+  }
+
 
 }
 /* ==============================
@@ -241,6 +288,7 @@ text-align: center;
   color: white;
 
 }
+
 
 
   
