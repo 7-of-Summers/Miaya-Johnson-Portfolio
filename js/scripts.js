@@ -1,5 +1,7 @@
 console.log ("Welcome to Miaya Johnson's UX Design Portfolio. Enjoy!")
 
+
+/*Slides Function*/
 var slideIndex = 1;
 showDivs(slideIndex);
 
@@ -15,34 +17,5 @@ function showDivs(n) {
   for (i = 0; i < x.length; i++) {
     x[i].style.display = "none";  
   }
-  x[slideIndex-1].style.display = "block";  
+  x[slideIndex-1].style.display = "inline";  
 }
-
-function menuToggle() {
-    var x = document.getElementById('myNavtoggle');
-    if (x.className === 'navtoggle') {
-      x.className += ' responsive';
-    } else {
-      x.className = 'navtoggle';
-    }
-  }
-
-  $(".item").on("mouseover", function() {
-    $(this).parent().addClass("is-hovered");
-  });
-  $(".item").on("mouseout", function() {
-    $(this).parent().removeClass("is-hovered");
-  });
-  
-  $(document).ready(function() {
-    $('#main-nav li a').click(function(e) {
-        
-        var targetHref = $(this).attr('href');
-        
-      $('html, body').animate({
-          scrollTop: $(targetHref).offset().top
-      }, 1000);
-      
-      e.preventDefault();
-    });
-  });
