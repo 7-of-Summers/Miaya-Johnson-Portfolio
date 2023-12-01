@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
-      href="./css/css_portfolio_miayajohnson.css"
+      href="./css/styles.css"
       rel="stylesheet"
       type="text/css"
     />
@@ -17,7 +17,7 @@
 cursor: url("./assets/icons/website_icon/miaya_johnson_cursor_hover_2023.png"), default;
 }
       </style>
-      <script src="https://kit.fontawesome.com/3d0e9fd603.js" crossorigin="anonymous"></script>
+
   </head>
   
 
@@ -32,20 +32,22 @@ cursor: url("./assets/icons/website_icon/miaya_johnson_cursor_hover_2023.png"), 
   
     <header>
       <title>Miaya Johnson</title>
-      <div class= "navtoggle" id= "myNavtoggle">
-      <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
+      
+    
           
     </header>
 
       <img
       src="./assets/icons/website_icon/miaya_johnson_monogram_2023.png"
-      width="150"
-      height="150"/>
+      width="300"
+      height="153"/>
       </div>
-    
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <section class="top-nav">
+        <div>
       
       <nav class="navigation">
-        <ul class="horizontal-list">
+        <ul class= "horizontal-list">
           <li><a href="index.html">Home</a></li>
           <li><a href="work.html">Work</a></li>
           <li><a href="about.html">About</a></li>
@@ -69,22 +71,20 @@ cursor: url("./assets/icons/website_icon/miaya_johnson_cursor_hover_2023.png"), 
           <div class="spacer"></div>
           
           
-            <div>
-            <div class="row">
-            <div class="col-md-6">
-            <div class="img-wrapper">
-            <div id="mouse-over">
-            <img class="mySlides" src="./assets/screenshots/vela_screenshots/mockuuups-iphone-13-pro-mockup-isometric-floor-left 2.png" style="width:100%">
-            <img class="mySlides" src="./assets/screenshots/ruminate_screenshots/mockuuups-iphone-13-pro-mockup-isometric-floor-left 2.png" style="width:100%">
-            <img class="mySlides" src="./assets/screenshots/mischief_screenshots/mockuuups-iphone-13-pro-mockup-isometric-floor-left.png" style="width:100%">
+            
+            <div class="row" id="mouse-over" class="col-md-6" class="img-wrapper" class="centerMe">
+              <a href="work.html" target="_blank">
+            <img class="mySlides" src="./assets/images_elements/vela_images/vela_slideshow_2023.png" style="width:100%">
+            <img class="mySlides" src="./assets/images_elements/mischief_images/mischief_slideshow_2023.png" style="width:100%">
+            <img class="mySlides" src="./assets/images_elements/ruminate_images/ruminate_slideshow_2023.png" style="width:100%"></a>
              
-           
+            </div>
+            <div>
             <button class="button" onclick="plusDivs(-1)">&#10094;</button>
             <button class="button" onclick="plusDivs(1)">&#10095;</button>
             </div>
-            </div>
-            </div>
-            </div>
+         
+      
         
         
           
@@ -146,3 +146,4 @@ cursor: url("./assets/icons/website_icon/miaya_johnson_cursor_hover_2023.png"), 
   <script src="js/scripts.js"></script>
 </body>
 </html>
+
