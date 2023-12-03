@@ -1,0 +1,325 @@
+/* This creates the grid paper effect on the background*/
+body {
+    background-color:#5aa99d;
+    background-image: radial-gradient(#5aa99d  7px, lch(28% 50 182)55px);
+    background-size: 20px 20px;
+  }
+
+/* This makes the MENU sticky scroll */
+#header{
+
+position: fixed;
+top:55px;
+left: auto;
+width: 100%;
+height: auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px 55px;
+
+
+
+/* This makes the LOGO sticky scroll */
+}
+
+header{
+    position: fixed;
+    top:22px;
+    left: 22px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #033029;
+    padding: 20px 55px;
+    
+    }
+
+ /* These FOLLOWING 4 change the scrollbar's style on PC. */
+
+    /* scrollbar's width */
+::-webkit-scrollbar {
+    width: 22px;
+  }
+  
+  /* scrollbar's Track */
+  ::-webkit-scrollbar-track {
+    background: lch(28% 50 182);
+  }
+  
+  /* scrollbar's Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #4ee1cb;
+  }
+  
+  /* scrollbar's Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: white;
+  }
+
+  /* This changes all text boxes */
+
+p {
+   
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+	  font-size: 15px;
+    color: white;
+    margin-left:auto;
+    margin-right:auto;
+}
+/* This applies to all PAGE titles */
+h1 {
+    text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 44px;
+  color: white;
+}
+
+/* This applies to all SECTION titles */
+h2 {
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 22px;
+color: white;
+float: center;
+
+}
+
+/* This changes the menu style */
+a {
+  display: inline-block;
+  background-color: lch(28% 50 182);
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 4px 10px;
+	margin: 7px;
+	border-radius: 10px;
+
+}
+
+/* This changes the menu style */
+li {
+  list-style-type: none;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+}
+
+/* This changes the menu style */
+	li a {
+  display: inline-block;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: unset;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul#horizontal-list {
+	min-width: 696px;
+	list-style: none;
+	padding-top: 20px;
+    display: inline-block;
+    text-align: center;
+  
+	}
+
+
+  ul#horizontal-list li {
+		display: inline-block;
+	}
+    
+
+    ul li a:hover{
+        background:#4ee1cb;
+        color:#033029 ;
+    }
+    ul li a:hover.dropdown {
+        display: block;
+    }
+
+
+
+    /* Change the link color to light green on hover */
+li a:hover {
+    background-color: lch(71% 131 186);
+  }
+  
+  
+  /* unvisited link */
+  a:link {
+    color: white;
+  }
+  
+  a:visited {
+    color: white;
+  }
+  
+  
+  /* mouse over link */
+  a:hover {
+    color: rgb(255, 255, 255);
+    
+  }
+  
+  /* selected link */
+  a:active {
+    color: rgb(255, 255, 255);
+  }
+
+/* This animates the zoom effect when users hover over a clickable item */
+.zoom {
+
+  transition: transform .4s; /* Animation */
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.2); /* (120% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.maxWidth {
+max-width: 700px;
+margin:auto;
+}
+
+
+footer {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  color: white;
+  padding: 15px;
+ } 
+  
+
+.img-wrapper {
+  max-width: 300px;
+
+
+}
+
+.img-wrapper img {
+  width: 100%;
+  height: auto; 
+}
+
+.columns-standard {
+	background-color: transparent;
+	border: 1px transparent;
+	padding: 0px 15px;
+}
+
+.columns-standard [class*="col-"] {
+  float: left;
+}
+
+.columns-standard .row::after {
+  content: "";
+  clear: both;
+  
+}
+
+.columns-standard .col-sm-12 {
+  width: 100%;
+}
+
+
+/* ==============================
+Small devices (480px and larger)
+================================= */
+@media only screen and (min-width: 480px) {
+
+ p {
+  text-align: unset;
+}
+
+
+}
+
+/* ==============================
+Medium devices (640px and larger)
+================================= */
+@media only screen and (min-width: 640px) {
+  p {
+    text-align: unset;
+  }
+  .col-md-6 {
+		width: 50%;
+	}
+
+	.col-md-4 {
+		width: calc(100%/3);
+	}
+
+
+}
+/* ==============================
+Large devices (1024px or larger)
+================================= */
+@media only screen and (min-width: 1024px) {
+  p {
+    text-align: unset;
+  }
+  .col-md-3 {
+		width: calc(100%/4); /* same as 50% */
+	}
+
+  
+}
+
+
+.spacer {
+  height: 100px;
+  width: 100%;
+}
+.centerMe {
+text-align: center;
+}
+.backgroundColor{ 
+background-color:#5aa99d; 
+}
+
+
+#wrapper {
+ margin-left:auto;
+ margin-right:auto;
+width:1480px;
+}
+
+.imgWrapper{
+
+text-align: center;
+}
+
+.navigation{
+
+text-align: center;
+
+}
+
+
+.mySlides {display:none;
+}
+
+.button {
+  display: inline;
+  background-color: lch(28% 50 182);
+  text-align: center;
+  align-items: center;
+  font-size: 33px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 7px 30px;
+	margin: 22px;
+	border-radius: 11px;
+  color: white;
+
+}
+
+
+
+
+  
+
