@@ -318,6 +318,85 @@ text-align: center;
 
 }
 
+* {
+  box-sizing: border-box;
+}
+
+
+nav {
+  display: inline-block;
+  width: 100%;
+  
+}
+
+nav > ul {
+  list-style-type: none;
+ 
+}
+
+nav > ul > li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+nav > ul > li > a {
+  display: inline-block;
+}
+
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+
+/* our hamburger menu */
+.navtoggle li .icon {
+  
+  font-size: 20px;
+}
+
+.navtoggle.responsive nav {
+  padding: 24px 0 0;
+}
+
+.navtoggle.responsive li  {
+  display: block;
+  padding: 10px 0;
+}
+
+.navtoggle.responsive li:last-child {
+  padding: 0 0 10px;
+}
+
+/* === Medium Devices (641px and larger) === */
+@media only screen and (min-width: 641px) {
+  header {
+    text-align: unset;
+    padding: 20px 0 13px;
+  }
+
+  nav {
+    width: auto;
+  
+    margin-top: 4px;
+  }
+
+  nav > ul > li {
+    display: inline-block;
+    position: relative;
+  }
+
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
+  }
+
+  .navtoggle li:last-child {
+    display: none;
+  }
+
+}
 
 
 
