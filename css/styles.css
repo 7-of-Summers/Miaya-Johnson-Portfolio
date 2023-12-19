@@ -348,7 +348,10 @@ nav > ul > li > a {
 }
 
 .navtoggle, .navtoggle.responsive {
-  position: relative;
+  position:relative;
+  float:left;
+  margin-left: 60%;
+  margin-right: 30px;
 }
 
 /* our hamburger menu */
@@ -397,8 +400,4 @@ nav > ul > li > a {
   }
 
 }
-
-
-
-  
 
