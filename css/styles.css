@@ -69,7 +69,7 @@ p {
     margin-left:auto;
     margin-right:auto;
     max-width: 700px;
-    float:left;
+    display: inline;
 }
 /* This applies to all PAGE titles */
 h1 {
@@ -200,7 +200,6 @@ footer {
 
 .img-wrapper {
   max-width: 300px;
-  
 
 
 }
@@ -208,7 +207,6 @@ footer {
 .img-wrapper img {
   width: 100%;
   height: auto; 
-  
 }
 
 .columns-standard {
