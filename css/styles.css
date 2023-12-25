@@ -1,7 +1,7 @@
 /* This creates the grid paper effect on the background*/
 body {
     background-color:#5aa99d;
-    background-image: radial-gradient(#5aa99d  7px, lch(28% 50 182)55px);
+    background-image: radial-gradient(white  7px, lch(28% 50 182)55px);
     background-size: 20px 20px;
   }
 
@@ -64,8 +64,8 @@ p {
    
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-	  font-size: 15px;
-    color: white;
+	  font-size: 18px;
+    color: #033029;
     margin-left:auto;
     margin-right:auto;
     max-width: 450px;
@@ -74,8 +74,8 @@ p {
 h1 {
     text-align: center;
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 44px;
-  color: white;
+	font-size: 50px;
+  color: #033029;
 }
 
 /* This applies to all SECTION titles */
