@@ -1,6 +1,6 @@
 /* This creates the grid paper effect on the background*/
 body {
-    background-color:#white;
+    background-color:white;
     background-image: radial-gradient(white  7px, lch(28% 50 182)55px);
     background-size: 20px 20px;
   }
@@ -400,3 +400,4 @@ nav > ul > li > a {
   }
 
 }
+
