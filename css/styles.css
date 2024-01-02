@@ -26,7 +26,7 @@ padding: 20px 55px;
 header{
     position: fixed;
     top:22px;
-    left: 22px;
+    left: 10px;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -70,6 +70,8 @@ p {
     margin-right:auto;
     max-width: 450px;
 }
+
+
 /* This applies to all PAGE titles */
 h1 {
     text-align: center;
@@ -198,6 +200,11 @@ footer {
 
 .img-wrapper {
   max-width: 300px;
+  text-align: center;
+align-items: center;
+justify-content: center;
+margin-left: 25%;
+margin-right: 20%;
 
 
 }
@@ -205,6 +212,9 @@ footer {
 .img-wrapper img {
   width: 100%;
   height: auto; 
+  text-align: center;
+align-items: center;
+justify-content: center;
 }
 
 .columns-standard {
@@ -226,6 +236,8 @@ footer {
 .columns-standard .col-sm-12 {
   width: 100%;
 }
+
+
 
 
 /* ==============================
@@ -278,6 +290,8 @@ this is for Large devices (1024px or larger)
 }
 .centerMe {
 text-align: center;
+align-items: center;
+justify-content: center;
 }
 .backgroundColor{ 
 background-color:white; 
@@ -293,6 +307,8 @@ width:1480px;
 .imgWrapper{
 
 text-align: center;
+align-items: center;
+justify-content: center;
 }
 
 .navigation{
@@ -350,8 +366,9 @@ nav > ul > li > a {
 .navtoggle, .navtoggle.responsive {
   position:relative;
   float:left;
-  margin-left: 60%;
-  margin-right: 30px;
+ 
+  margin-left: 50%;
+  ;
 }
 
 /* this is for the hamburger menu */
@@ -399,5 +416,6 @@ nav > ul > li > a {
     display: none;
   }
 
+}
 }
 
